@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: slategray;
+    background-size: cover;
+}
+
+header {
+    margin: 0;
+    background-image: url("background3.jpeg");
+    padding: 1.5rem;
+    height: 90px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 168px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Consolas;
+    font-size: 5rem;
+    margin: 1rem;
+    color: white;
+}
+
+h2 {
+    font-family: Consolas;
+    font-size: 2.5rem;
+    color: #000000;
+    margin: 1rem;
+}
+
+h3 {
+    font-family: Consolas;
+    color: #000000;
+    margin: 1rem;
+}
+
+.detail-section {
+    text-align: center;
+    width: 300vw;
+    height: 100%;
+    border: 2px #332E3C solid;
+    border-radius: 2%;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    box-shadow: 3px 3px 5px 6px black;
+    margin-top: 3.75rem;
+}
+
+.detail-section h3 {
+    text-decoration: underline;
+}
+
+.favorite {
+    background-color: #570bcb;
+}
+
+.TheFinals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 1;
+    margin-top: 3rem;
+}
+
+.finalist {
+    text-align: center;
+    width: 20vw;
+    border: 2px #332E3C solid;
+    border-radius: 2%;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px 6px rgba(37, 37, 37, 0.72);
+}
+
+.finalist h3 {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+}
+
+button {
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rebeccapurple;
+    border: 5px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    font-family: Consolas;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+button:hover {
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 4px;
+}
